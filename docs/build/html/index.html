@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Documentação do WebScraping_SOR4 &#8212; documentação WebScraping_SOR4 1.0.0</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Buscar" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="documentacao-do-webscraping-sor4">
+<h1>Documentação do WebScraping_SOR4<a class="headerlink" href="#documentacao-do-webscraping-sor4" title="Link permanente para este título">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="sobre">
+<h1>Sobre<a class="headerlink" href="#sobre" title="Link permanente para este título">¶</a></h1>
+<p>Este pequeno projeto foi criado por fins didáticos voltados à WebScraping. Por conta do lançamento
+do Game, resolvi utilizar ele como assunto principal e o site MetaCritic, o qual proíbe o uso de bibliotecas
+como o request, retornando erro 404 na tentativa de extrair dados do HTML.
+Por conta disso, criei um pequeno Script que utilizando o Selenium, acessa as páginas do MetaCritic do Game e
+salva-os na estação local.
+Aproveitei para aprender sobre a documentação utilizando Sphinx, o qual gerou esta simples documentação.</p>
+</div>
+<div class="section" id="como-utilizar">
+<h1>Como Utilizar<a class="headerlink" href="#como-utilizar" title="Link permanente para este título">¶</a></h1>
+<ol class="arabic">
+<li><p>Baixe e coloque o executável chromedriver.exe no diretório raiz do Projeto
+A. Baixe por aqui (<a class="reference external" href="https://chromedriver.chromium.org/">https://chromedriver.chromium.org/</a>)</p></li>
+<li><p>Instale as bibliotecas do Python Selenium e BeautifulSoup
+A. Abra o Terminal e execute pip install selenium BeautifulSoup, caso o usuário não tenha privilégios</p>
+<blockquote>
+<div><p>administrativos, execute pip -U install selenium BeautifulSoup</p>
+</div></blockquote>
+</li>
+<li><p>Execute o Script update_webpages.py</p></li>
+<li><p>execute o Script main.py</p></li>
+<li><p>Abra a planilha SOR4_Reviews.xlsx</p></li>
+<li><dl class="simple">
+<dt>Para realizar a análise das Reviews, utilize a biblioteca Pandas e sua criatividade</dt><dd><ol class="upperalpha simple">
+<li><p>Abra o Terminal e execute pip install pandas</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link permanente para este título">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Índice</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Índice do Módulo</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Página de Busca</span></a></p></li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">WebScraping_SOR4</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navegação</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Busca rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Ir" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Allan..
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
