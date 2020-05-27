@@ -7,7 +7,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/allankeiiti/WebScraping_SOR4">
   
-  <a href="https://github.com/Rocketseat/semana-omnistack-10/commits/master">
+  <a href="https://github.com/allankeiiti/WebScraping_SOR4/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/allankeiiti/WebScraping_SOR4">
   </a>
 </p>
