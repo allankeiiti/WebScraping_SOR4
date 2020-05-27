@@ -2,10 +2,6 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from numpy import where
 
-"""
-
-"""
-
 review_base = pd.DataFrame()
 platforms = ['playstation-4', 'xbox-one', 'switch', 'pc']
 for platform in platforms:

@@ -7,9 +7,6 @@ from sys import exit
 
 
 class updateWebPages():
-    """
-        Classe que
-    """
     def __init__(self):
         self.Current_Date = date.today()
         self.create_folder()
