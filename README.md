@@ -28,6 +28,4 @@ I took time to learn how to create an documentation using Sphinx. (Portuguese On
 
 <a href="https://medium.com/@richdayandnight/a-simple-tutorial-on-how-to-document-your-python-project-using-sphinx-and-rinohtype-177c22a15b5b">Onde aprendi o básico do Sphinx / Where I learned Sphinx Basics</a>
 
-<a href="https://steamcommunity.com/id/allanK/recommended/985890/">Minha Review na Steam / My Review on Steam</a>
-
 ![SOR4](https://steamcdn-a.akamaihd.net/steam/apps/985890/header.jpg?t=1588597142)
